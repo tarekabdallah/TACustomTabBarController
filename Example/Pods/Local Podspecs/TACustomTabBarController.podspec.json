@@ -1,0 +1,22 @@
+{
+  "name": "TACustomTabBarController",
+  "version": "0.1.0",
+  "summary": "A short description of TACustomTabBarController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Tarek/TACustomTabBarController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tarek": "tarek.abdallah@lau.edu"
+  },
+  "source": {
+    "git": "https://github.com/Tarek/TACustomTabBarController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TACustomTabBarController/Classes/**/*"
+}

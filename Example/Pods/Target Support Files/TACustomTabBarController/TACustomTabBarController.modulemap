@@ -1,0 +1,6 @@
+framework module TACustomTabBarController {
+  umbrella header "TACustomTabBarController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TACustomTabBarController_Tests' do
+  pod 'TACustomTabBarController', :path => '../'
+  
+  
+end

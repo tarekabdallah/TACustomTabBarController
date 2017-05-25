@@ -1,0 +1,6 @@
+framework module Pods_TACustomTabBarController_Tests {
+  umbrella header "Pods-TACustomTabBarController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

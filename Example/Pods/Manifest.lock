@@ -1,0 +1,16 @@
+PODS:
+  - TACustomTabBarController (0.1.0)
+
+DEPENDENCIES:
+  - TACustomTabBarController (from `../`)
+
+EXTERNAL SOURCES:
+  TACustomTabBarController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TACustomTabBarController: 1eb2c89421dfdf17dbbd9e02212efc2bdc680d77
+
+PODFILE CHECKSUM: b15082f3d03909c7dcb746c4bb3a4138ae7923ea
+
+COCOAPODS: 1.1.1
