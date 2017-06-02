@@ -55,10 +55,10 @@ self.CustomTabController?.selectItem(atIndex: <index>)
 ```
 Select Tab Bar item at a specific index
 
-###ScaleTransform animation
+##ScaleTransform animation
 This animation consists of scaling down the presenting view and scales up the presented view from the same frame.
 you can set the animation using the delegate.
-<img src =''
+<img src ='https://github.com/tarekabdallah/TACustomTabBarController/blob/master/resources/ScaleTransform.gif'
 alt="ScaleTransform animation" width='450'>
 
 ###ScaleOutAndTransform animation
