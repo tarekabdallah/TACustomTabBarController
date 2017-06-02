@@ -55,31 +55,32 @@ self.CustomTabController?.selectItem(atIndex: <index>)
 ```
 Select Tab Bar item at a specific index
 
-##ScaleTransform animation
+### ScaleTransform animation
 This animation consists of scaling down the presenting view and scales up the presented view from the same frame.
 you can set the animation using the delegate.
 <img src ='https://github.com/tarekabdallah/TACustomTabBarController/blob/master/resources/ScaleTransform.gif'
 alt="ScaleTransform animation" width='450'>
 
-###ScaleOutAndTransform animation
+### ScaleOutAndTransform animation
 This animation consists of scaling down the presenting view and scrol it.
 you can set the animation using the delegate.
-<img src =''
+<img src ='https://github.com/tarekabdallah/TACustomTabBarController/blob/master/resources/ScaleOutAndTransform.gif'
 alt="ScaleTransform animation" width='450'>
 
-###ScaleUp animation
+### ScaleUp animation
 This animation consists of scaling down the presenting view and zooming in to preview the presented view from the same frame.
 you can set the animation using the delegate.
-<img src =''
+<img src ='https://github.com/tarekabdallah/TACustomTabBarController/blob/master/resources/ScaleUp.gif'
 alt="ScaleTransform animation" width='450'>
 
-###ScaleDown animation
+### ScaleDown animation
 This animation consists of scaling down the presenting view and zooming out to see the presented view from the same frame.
 you can set the animation using the delegate.
-<img src =''
+<img src ='https://github.com/tarekabdallah/TACustomTabBarController/blob/master/resources/ScaleDown.gif'
 alt="ScaleTransform animation" width='450'>
 
-###View Documentation on:
+### View Documentation on:
+(https://github.com/tarekabdallah/TACustomTabBarController/blob/master/resources/docs/Classes.html)
 
 ## Author
 

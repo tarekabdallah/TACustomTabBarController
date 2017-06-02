@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0950AEE3AD8CBD89EB16E155708C0E78 /* TACustomTabBarAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BF40B83C6BD4FE07B8158EFE6BDEDE /* TACustomTabBarAnimations.swift */; };
 		125A729338B2A9810A44CE622BA43DB3 /* Pods-TACustomTabBarController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A2ADE8A1FEB79985C87D09769877F5 /* Pods-TACustomTabBarController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57A5BDA3649067DBFDECA9ABEA751396 /* TACustomTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8F1F369B260C4F477B8B671C91AEB7 /* TACustomTabBarController-dummy.m */; };
+		27A4F521401876AD89DB276BA3289035 /* TACustomTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8F1F369B260C4F477B8B671C91AEB7 /* TACustomTabBarController-dummy.m */; };
+		2FEF0C913DC824404DB3BE7D20EF0C55 /* TACustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4B5F240CDB3E3315195E635E8B855D /* TACustomCollectionViewCell.swift */; };
 		7649F5BDE138B165997FB93C0CA79840 /* Pods-TACustomTabBarController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F67F3C374380B936EB61D509E423DAF /* Pods-TACustomTabBarController_Tests-dummy.m */; };
 		767964D5DDBBF822C974FF91DCA4597D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		900BCD9D1EE1CB85008AC43B /* TACustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BCD9A1EE1CB85008AC43B /* TACustomTabBarController.swift */; };
-		900BCD9E1EE1CB85008AC43B /* TACustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BCD9B1EE1CB85008AC43B /* TACustomCollectionViewCell.swift */; };
-		900BCD9F1EE1CB85008AC43B /* TACustomTabBarAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900BCD9C1EE1CB85008AC43B /* TACustomTabBarAnimations.swift */; };
+		8B49F63657CA131B130BA6EDEE6C336A /* TACustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446DF7DF16E00D85C10DD589217D63F /* TACustomTabBarController.swift */; };
 		CAF2F7757A15D174092FC0622DDA315A /* TACustomTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6620D76494C3F233712E19C76CDBC6 /* TACustomTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4321A4C06E356D605DFBC1CA2C3D62E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -30,26 +30,26 @@
 
 /* Begin PBXFileReference section */
 		006F17EF015A1449B5BA068FF5D40479 /* Pods-TACustomTabBarController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TACustomTabBarController_Tests-resources.sh"; sourceTree = "<group>"; };
-		0481B73847D96D3250893E9438C690A3 /* TACustomTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TACustomTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0481B73847D96D3250893E9438C690A3 /* TACustomTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TACustomTabBarController.framework; path = TACustomTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4B5F240CDB3E3315195E635E8B855D /* TACustomCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TACustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		12F12C34AE5B2F59E8CF1EF26281A091 /* Pods-TACustomTabBarController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TACustomTabBarController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2AEEF6F5E409DE6D651A883E2ECABDB7 /* Pods-TACustomTabBarController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TACustomTabBarController_Tests.modulemap"; sourceTree = "<group>"; };
+		2AEEF6F5E409DE6D651A883E2ECABDB7 /* Pods-TACustomTabBarController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TACustomTabBarController_Tests.modulemap"; sourceTree = "<group>"; };
 		31802A76EFEFFA28E0A691A75291CE23 /* TACustomTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TACustomTabBarController-prefix.pch"; sourceTree = "<group>"; };
-		347CCE4A378D5895EF56F3D906EBFDDC /* Pods_TACustomTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TACustomTabBarController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		347CCE4A378D5895EF56F3D906EBFDDC /* Pods_TACustomTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TACustomTabBarController_Tests.framework; path = "Pods-TACustomTabBarController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A4BBE6AC04612045E5D2F66AFAA461 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BD19499F61A741FBB2C44C0CDF1280B /* Pods-TACustomTabBarController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TACustomTabBarController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		62E243AF78653052929E7AE38280A260 /* Pods-TACustomTabBarController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TACustomTabBarController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6F67F3C374380B936EB61D509E423DAF /* Pods-TACustomTabBarController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TACustomTabBarController_Tests-dummy.m"; sourceTree = "<group>"; };
+		72BF40B83C6BD4FE07B8158EFE6BDEDE /* TACustomTabBarAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TACustomTabBarAnimations.swift; sourceTree = "<group>"; };
+		7446DF7DF16E00D85C10DD589217D63F /* TACustomTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TACustomTabBarController.swift; sourceTree = "<group>"; };
 		8D8F1F369B260C4F477B8B671C91AEB7 /* TACustomTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TACustomTabBarController-dummy.m"; sourceTree = "<group>"; };
-		900BCD9A1EE1CB85008AC43B /* TACustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TACustomTabBarController.swift; sourceTree = "<group>"; };
-		900BCD9B1EE1CB85008AC43B /* TACustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TACustomCollectionViewCell.swift; sourceTree = "<group>"; };
-		900BCD9C1EE1CB85008AC43B /* TACustomTabBarAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TACustomTabBarAnimations.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F9F2E65052944E94646075064ADC83A /* Pods-TACustomTabBarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TACustomTabBarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3A2ADE8A1FEB79985C87D09769877F5 /* Pods-TACustomTabBarController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TACustomTabBarController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AA6620D76494C3F233712E19C76CDBC6 /* TACustomTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TACustomTabBarController-umbrella.h"; sourceTree = "<group>"; };
 		AF51AB1EBC41BF02E12DD0A94CF10F2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BED2CF13248FCD79EFFA1C18A5ABFE04 /* TACustomTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TACustomTabBarController.modulemap; sourceTree = "<group>"; };
+		BED2CF13248FCD79EFFA1C18A5ABFE04 /* TACustomTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TACustomTabBarController.modulemap; sourceTree = "<group>"; };
 		CF2FB81F5921C36176ECF49AB065C072 /* Pods-TACustomTabBarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TACustomTabBarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E7535E89A4A4A6314AA0F64CD9F1C8C1 /* TACustomTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TACustomTabBarController.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +74,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07B4048A4D4091A8B156F6F37D7D551E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F4B5F240CDB3E3315195E635E8B855D /* TACustomCollectionViewCell.swift */,
+				72BF40B83C6BD4FE07B8158EFE6BDEDE /* TACustomTabBarAnimations.swift */,
+				7446DF7DF16E00D85C10DD589217D63F /* TACustomTabBarController.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		13FDD7D516FB750C8BC5EF6017E6A1E9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				782632FB04C6BB94597B31FABFEAE01E /* Support Files */,
-				F8EDD798869340555A7D66F9C6C4BB0A /* TACustomTabBarController */,
+				A5E0DE945CF89BCA1EB07990AD6D021B /* TACustomTabBarController */,
 			);
 			name = TACustomTabBarController;
 			path = ../..;
@@ -125,14 +136,13 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		98C804D6BF411EA9C34FAE7E9C7EF341 /* Classes */ = {
+		A5E0DE945CF89BCA1EB07990AD6D021B /* TACustomTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				900BCD9A1EE1CB85008AC43B /* TACustomTabBarController.swift */,
-				900BCD9B1EE1CB85008AC43B /* TACustomCollectionViewCell.swift */,
-				900BCD9C1EE1CB85008AC43B /* TACustomTabBarAnimations.swift */,
+				07B4048A4D4091A8B156F6F37D7D551E /* Classes */,
 			);
-			path = Classes;
+			name = TACustomTabBarController;
+			path = TACustomTabBarController;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -178,14 +188,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F8EDD798869340555A7D66F9C6C4BB0A /* TACustomTabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				98C804D6BF411EA9C34FAE7E9C7EF341 /* Classes */,
-			);
-			path = TACustomTabBarController;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -212,7 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E64963C6D425E8D57ABD20359922473 /* Build configuration list for PBXNativeTarget "TACustomTabBarController" */;
 			buildPhases = (
-				C7A45ECE599AEF6EC764E70D85E2B65A /* Sources */,
+				63135202232FEB25BBF4390746054E7C /* Sources */,
 				727B1945A857EC42D4974CB1CA30189A /* Frameworks */,
 				C2D907134209C7E67667946F7507B1FD /* Headers */,
 			);
@@ -251,11 +253,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					CF6CAF667E7DC5947D245F43C12190FF = {
-						LastSwiftMigration = 0830;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -276,22 +273,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		63135202232FEB25BBF4390746054E7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEF0C913DC824404DB3BE7D20EF0C55 /* TACustomCollectionViewCell.swift in Sources */,
+				0950AEE3AD8CBD89EB16E155708C0E78 /* TACustomTabBarAnimations.swift in Sources */,
+				27A4F521401876AD89DB276BA3289035 /* TACustomTabBarController-dummy.m in Sources */,
+				8B49F63657CA131B130BA6EDEE6C336A /* TACustomTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B17EF9EFBFAD4BAE0C55A0FD5693017F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900BCD9F1EE1CB85008AC43B /* TACustomTabBarAnimations.swift in Sources */,
 				7649F5BDE138B165997FB93C0CA79840 /* Pods-TACustomTabBarController_Tests-dummy.m in Sources */,
-				900BCD9E1EE1CB85008AC43B /* TACustomCollectionViewCell.swift in Sources */,
-				900BCD9D1EE1CB85008AC43B /* TACustomTabBarController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7A45ECE599AEF6EC764E70D85E2B65A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57A5BDA3649067DBFDECA9ABEA751396 /* TACustomTabBarController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +425,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF2FB81F5921C36176ECF49AB065C072 /* Pods-TACustomTabBarController_Tests.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -511,7 +507,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F9F2E65052944E94646075064ADC83A /* Pods-TACustomTabBarController_Tests.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
