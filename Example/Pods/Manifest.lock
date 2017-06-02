@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TACustomTabBarController: 1eb2c89421dfdf17dbbd9e02212efc2bdc680d77
+  TACustomTabBarController: d97dd16204247d47ef5f51b8fbe51df95fc21aa6
 
 PODFILE CHECKSUM: b15082f3d03909c7dcb746c4bb3a4138ae7923ea
 

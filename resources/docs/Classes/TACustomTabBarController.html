@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TACustomTabBarController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/TACustomTabBarController" class="dashAnchor"></a>
+    <a title="TACustomTabBarController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (59% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        TACustomTabBarController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/TACustomTabBarController.html">TACustomTabBarController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AnimationType.html">AnimationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ItemTextPosition.html">ItemTextPosition</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/TACustomTabBarControllerDelegate.html">TACustomTabBarControllerDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>TACustomTabBarController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TACustomTabBarController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                </div>
+              </div>
+            <p>TACustomTabBarController can be used insead of the default tab bar contoller. It has some additional features such as text position with respect to the icon, rach tabBar item Background color, text color
+and text color. seperator color and tab bar height.
+This custom tab bar also enables adding a starting view controller which is not in the tab bar and allows jumping to it at anytime while handling selection.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC22CustomTabBarController24TACustomTabBarController13containerViewCSo6UIView"></a>
+                    <a name="//apple_ref/swift/Property/containerView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC22CustomTabBarController24TACustomTabBarController13containerViewCSo6UIView">containerView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Container view were all the view controllers will be displayed. Get only</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">containerView</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="o">.</span><span class="n">zero</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC22CustomTabBarController24TACustomTabBarController15viewControllersGSQGSaCSo16UIViewController__"></a>
+                    <a name="//apple_ref/swift/Property/viewControllers" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC22CustomTabBarController24TACustomTabBarController15viewControllersGSQGSaCSo16UIViewController__">viewControllers</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Array of view controllers. Get only</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">viewControllers</span><span class="p">:[</span><span class="kt">UIViewController</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC22CustomTabBarController24TACustomTabBarController22startingViewControllerGSQCSo16UIViewController_"></a>
+                    <a name="//apple_ref/swift/Property/startingViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC22CustomTabBarController24TACustomTabBarController22startingViewControllerGSQCSo16UIViewController_">startingViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The starting view controller. Get only</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">startingViewController</span><span class="p">:</span><span class="kt">UIViewController</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC22CustomTabBarController24TACustomTabBarController17selectedIndexPathGSqV10Foundation9IndexPath_"></a>
+                    <a name="//apple_ref/swift/Property/selectedIndexPath" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC22CustomTabBarController24TACustomTabBarController17selectedIndexPathGSqV10Foundation9IndexPath_">selectedIndexPath</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>IndexPath of the current selected item. Get only
+The value is nil if the starting view controller is set and is currently shown</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">selectedIndexPath</span><span class="p">:</span><span class="kt">IndexPath</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC22CustomTabBarController24TACustomTabBarController6tabBarGSQCSo16UICollectionView_"></a>
+                    <a name="//apple_ref/swift/Property/tabBar" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC22CustomTabBarController24TACustomTabBarController6tabBarGSQCSo16UICollectionView_">tabBar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The tab Bar collection view. Get Only</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">tabBar</span><span class="p">:</span> <span class="kt">UICollectionView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC22CustomTabBarController24TACustomTabBarController18preferredAnimationOS_13AnimationType"></a>
+                    <a name="//apple_ref/swift/Property/preferredAnimation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC22CustomTabBarController24TACustomTabBarController18preferredAnimationOS_13AnimationType">preferredAnimation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Animation used on presentation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">preferredAnimation</span><span class="p">:</span> <span class="kt"><a href="../Enums/AnimationType.html">AnimationType</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">none</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC22CustomTabBarController24TACustomTabBarController12tabBarHeightGSQV12CoreGraphics7CGFloat_"></a>
+                    <a name="//apple_ref/swift/Property/tabBarHeight" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC22CustomTabBarController24TACustomTabBarController12tabBarHeightGSQV12CoreGraphics7CGFloat_">tabBarHeight</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Height of the tabBar. Set and Get available</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">tabBarHeight</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController11viewDidLoadFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController11viewDidLoadFT_T_">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TACustomTabBarController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController14viewWillAppearFSbT_"></a>
+                    <a name="//apple_ref/swift/Method/viewWillAppear(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController14viewWillAppearFSbT_">viewWillAppear(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TACustomTabBarController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController23didReceiveMemoryWarningFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/didReceiveMemoryWarning()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController23didReceiveMemoryWarningFT_T_">didReceiveMemoryWarning()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TACustomTabBarController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController18setViewControllersFT15viewControllersGSaCSo16UIViewController__T_"></a>
+                    <a name="//apple_ref/swift/Method/setViewControllers(viewControllers:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController18setViewControllersFT15viewControllersGSaCSo16UIViewController__T_">setViewControllers(viewControllers:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>set the View Controllers to be added to the tabBar Controller and shown in the tabBar</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setViewControllers</span><span class="p">(</span><span class="nv">viewControllers</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIViewController</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>viewControllers</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>List of view controllers to be shown in the tabBar</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController25setStartingViewControllerFT14viewControllerCSo16UIViewController_T_"></a>
+                    <a name="//apple_ref/swift/Method/setStartingViewController(viewController:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController25setStartingViewControllerFT14viewControllerCSo16UIViewController_T_">setStartingViewController(viewController:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>set starting view controller. if not implemnted, view controller at first index will be taken.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setStartingViewController</span><span class="p">(</span><span class="nv">viewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>viewController</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>view controller shown at the begining and not added to the tabBar</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController28jumpToStartingViewControllerFT_T_"></a>
+                    <a name="//apple_ref/swift/Method/jumpToStartingViewController()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController28jumpToStartingViewControllerFT_T_">jumpToStartingViewController()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>display the starting view controller on the screen</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">jumpToStartingViewController</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController10selectItemFT7atIndexSi_T_"></a>
+                    <a name="//apple_ref/swift/Method/selectItem(atIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController10selectItemFT7atIndexSi_T_">selectItem(atIndex:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Select any item at a specific index</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">selectItem</span><span class="p">(</span><span class="n">atIndex</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>index</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the index of the view controller</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController14collectionViewFTCSo16UICollectionView22numberOfItemsInSectionSi_Si"></a>
+                    <a name="//apple_ref/swift/Method/collectionView(_:numberOfItemsInSection:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController14collectionViewFTCSo16UICollectionView22numberOfItemsInSectionSi_Si">collectionView(_:numberOfItemsInSection:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TACustomTabBarController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController14collectionViewFTCSo16UICollectionView13cellForItemAtV10Foundation9IndexPath_CSo20UICollectionViewCell"></a>
+                    <a name="//apple_ref/swift/Method/collectionView(_:cellForItemAt:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController14collectionViewFTCSo16UICollectionView13cellForItemAtV10Foundation9IndexPath_CSo20UICollectionViewCell">collectionView(_:cellForItemAt:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TACustomTabBarController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController14collectionViewFTCSo16UICollectionView6layoutCSo22UICollectionViewLayout13sizeForItemAtV10Foundation9IndexPath_VSC6CGSize"></a>
+                    <a name="//apple_ref/swift/Method/collectionView(_:layout:sizeForItemAt:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController14collectionViewFTCSo16UICollectionView6layoutCSo22UICollectionViewLayout13sizeForItemAtV10Foundation9IndexPath_VSC6CGSize">collectionView(_:layout:sizeForItemAt:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TACustomTabBarController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController14collectionViewFTCSo16UICollectionView15didSelectItemAtV10Foundation9IndexPath_T_"></a>
+                    <a name="//apple_ref/swift/Method/collectionView(_:didSelectItemAt:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController14collectionViewFTCSo16UICollectionView15didSelectItemAtV10Foundation9IndexPath_T_">collectionView(_:didSelectItemAt:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TACustomTabBarController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController14collectionViewFTCSo16UICollectionView17didDeselectItemAtV10Foundation9IndexPath_T_"></a>
+                    <a name="//apple_ref/swift/Method/collectionView(_:didDeselectItemAt:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController14collectionViewFTCSo16UICollectionView17didDeselectItemAtV10Foundation9IndexPath_T_">collectionView(_:didDeselectItemAt:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TACustomTabBarController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC22CustomTabBarController24TACustomTabBarController14collectionViewFTCSo16UICollectionView6layoutCSo22UICollectionViewLayout17insetForSectionAtSi_VSC12UIEdgeInsets"></a>
+                    <a name="//apple_ref/swift/Method/collectionView(_:layout:insetForSectionAt:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC22CustomTabBarController24TACustomTabBarController14collectionViewFTCSo16UICollectionView6layoutCSo22UICollectionViewLayout17insetForSectionAtSi_VSC12UIEdgeInsets">collectionView(_:layout:insetForSectionAt:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">TACustomTabBarController</span><span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2017-06-02)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

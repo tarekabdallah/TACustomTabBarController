@@ -1,22 +1,22 @@
 {
   "name": "TACustomTabBarController",
   "version": "0.1.0",
-  "summary": "A short description of TACustomTabBarController.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Tarek/TACustomTabBarController",
+  "summary": "TACustomTabBarController is a tabBar controller ability to control the design (item background color, text position, text font ...).",
+  "description": "TACustomTabBarController is a tabBar controller ability to control the design (item background color, text position, text font ...). It gives the developer an easy way to design his app with minimal restriction",
+  "homepage": "https://github.com/tarekabdallah/TACustomTabBarController",
   "license": {
-    "type": "MIT",
+    "type": "Apache License 2.0",
     "file": "LICENSE"
   },
   "authors": {
     "Tarek": "tarek.abdallah@lau.edu"
   },
   "source": {
-    "git": "https://github.com/Tarek/TACustomTabBarController.git",
+    "git": "https://github.com/tarekabdallah/TACustomTabBarController.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "TACustomTabBarController/Classes/**/*"
 }
