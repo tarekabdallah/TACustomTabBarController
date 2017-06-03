@@ -84,8 +84,7 @@ you can set the animation using the delegate.
 alt="ScaleTransform animation" width='450'>
 
 ### View Documentation on:
-http://cocoadocs.org/docsets/TACustomTabBarController/0.1.0/index.html
-
+http://cocoadocs.org/docsets/TACustomTabBarController/0.1.1/
 ## Author
 
 Tarek, tarekabd1995@gmail.com
