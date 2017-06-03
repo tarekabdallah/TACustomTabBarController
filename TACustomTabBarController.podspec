@@ -25,7 +25,7 @@ DESC
 
   s.homepage         = 'https://github.com/tarekabdallah/TACustomTabBarController'
   s.license          = { :type => 'Apache License 2.0', :file => 'LICENSE' }
-  s.author           = { 'Tarek' => 'tarek.abdallah@lau.edu' }
+  s.author           = { 'Tarek' => 'tarekabd1995@gmail.com' }
   s.source           = { :git => 'https://github.com/tarekabdallah/TACustomTabBarController.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
