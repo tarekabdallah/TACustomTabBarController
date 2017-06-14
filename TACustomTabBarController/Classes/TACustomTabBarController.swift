@@ -66,7 +66,7 @@ open class TACustomTabBarController: UIViewController {
     /// Animation used on presentation
     public internal(set) var preferredAnimation: AnimationType = .none
     
-    var delegate: TACustomTabBarControllerDelegate?
+    public var delegate: TACustomTabBarControllerDelegate?
     ///Height of the tabBar. Set and Get available
     public var tabBarHeight: CGFloat!
     override open func viewDidLoad() {
@@ -290,7 +290,7 @@ extension TACustomTabBarController: UICollectionViewDelegate, UICollectionViewDa
 }
 var customViewController:UIViewController?
 extension UIViewController{
-    var CustomTabController:TACustomTabBarController?{
+    public var CustomTabController:TACustomTabBarController?{
         set{
             var tabBarController : UIViewController? = nil
             if let value = newValue
